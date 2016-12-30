@@ -1,0 +1,29 @@
+{
+  "name": "pieterdp-hx_ssh",
+  "version": "1.0.0",
+  "author": "Pieter De Praetere",
+  "summary": "Module to configure the SSH server.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/pieterdp/hx_ssh",
+  "project_page": "https://github.com/pieterdp/hx_ssh",
+  "issues_url": "https://github.com/pieterdp/hx_ssh/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04",
+        "16.04"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    },
+    {
+      "name": "saz-ssh",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
